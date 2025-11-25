@@ -1,0 +1,33 @@
+*{
+ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+    text-decoration: none;
+color: black;
+}
+li  {
+    list-style: none;
+}
